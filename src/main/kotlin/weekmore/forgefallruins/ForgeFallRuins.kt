@@ -1,9 +1,9 @@
-package life.weekmore
+package weekmore.forgefallruins
 
 import net.fabricmc.api.ModInitializer
 import org.slf4j.LoggerFactory
 
-object ForgefallRuins : ModInitializer {
+object ForgeFallRuins : ModInitializer {
     private val logger = LoggerFactory.getLogger("forgefallruins")
 
 	override fun onInitialize() {

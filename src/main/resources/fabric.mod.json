@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "forgefallruins",
 	"version": "${version}",
-	"name": "ForgefallRuins",
+	"name": "ForgeFallRuins",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -17,29 +17,19 @@
 	"entrypoints": {
 		"main": [
 			{
-				"value": "life.weekmore.ForgefallRuins",
-				"adapter": "kotlin"
-			}
-		],
-		"client": [
-			{
-				"value": "life.weekmore.ForgefallRuinsClient",
+				"value": "weekmore.forgefallruins.ForgeFallRuins",
 				"adapter": "kotlin"
 			}
 		],
 		"fabric-datagen": [
 			{
-				"value": "life.weekmore.ForgefallRuinsDataGenerator",
+				"value": "weekmore.forgefallruins.ForgeFallRuinsDataGenerator",
 				"adapter": "kotlin"
 			}
 		]
 	},
 	"mixins": [
-		"forgefallruins.mixins.json",
-		{
-			"config": "forgefallruins.client.mixins.json",
-			"environment": "client"
-		}
+		"forgefallruins.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.18.1",
