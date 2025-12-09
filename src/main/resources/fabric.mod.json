@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "forgefallruins",
+	"id": "forge_fall_ruins",
 	"version": "${mod_version}",
 	"name": "ForgeFallRuins",
 	"description": "A Minecraft Mod featuring Roguelike Game",
@@ -13,7 +13,7 @@
 		"sources": "https://github.com/WeekMore/ForgefallRuins"
 	},
 	"license": "GNU General Public License v3.0",
-	"icon": "assets/forgefallruins/icon.png",
+	"icon": "assets/forge_fall_ruins/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -30,7 +30,7 @@
 		]
 	},
 	"mixins": [
-		"forgefallruins.mixins.json"
+		"forge_fall_ruins.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${loader_version}",

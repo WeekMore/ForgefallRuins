@@ -1,9 +1,7 @@
 package weekmore.forgefallruins
 
 import net.fabricmc.api.ModInitializer
-import net.minecraft.item.Item
 import org.slf4j.LoggerFactory
-import weekmore.forgefallruins.item.weapon.factory.SwordWeaponFactory
 import weekmore.forgefallruins.item.weapon.sword
 import weekmore.forgefallruins.utils.ItemRegister
 
@@ -22,7 +20,7 @@ object ForgeFallRuins : ModInitializer {
         },
     )
 
-    private val logger = LoggerFactory.getLogger("forgefallruins")
+    private val logger = LoggerFactory.getLogger("ForgeFallRuins")
 
 	override fun onInitialize() {
 
